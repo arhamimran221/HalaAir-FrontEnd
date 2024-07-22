@@ -1,0 +1,99 @@
+@keyframes arabic {
+	0% {
+		transform: scaleX(0);
+		transform-origin: 100% 100%;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: 100% 100%;
+	}
+}@keyframes english {
+	0% {
+		transform: scaleX(0);
+		transform-origin: 0% 0%;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: 0% 0%;
+	}
+}
+
+.ant-layout-header {
+    min-height: 75px !important;
+    background-color: var(--white);
+    padding: 0px;
+    /* border-bottom: 1px solid var(--primary) !important; */
+}
+.ant-menu-overflow {
+    gap: 12px;
+}
+.ant-layout-header .ant-menu{
+    color: #867767;
+}
+.ant-menu .ant-menu-title-content {
+    transition: color 0.3s;
+    font-size: 18px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+}
+.ant-menu-item {
+    position: static !important;
+}
+.ant-menu-horizontal {
+    border-bottom: 0px !important;
+}
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected {
+    color: var(--primary);
+    font-weight: 500;
+}
+.ant-menu-item:hover {
+    color: #F59223 !important;
+  }
+  .ant-menu-submenu-title:hover, .ant-menu-title-content{
+    color: #F59223 !important;
+  }
+  :where(.css-dev-only-do-not-override-1m0guaf).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu:hover::after,
+  :where(.css-dev-only-do-not-override-1m0guaf).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-open::after {
+    border-bottom-color: #F59223 !important;
+  }
+  
+  .ant-menu-submenu-selected::after{
+    border-bottom-color:#F59223 !important ;
+  }
+.ant-menu-submenu:hover {
+    border-width: 0px !important;
+}
+.ant-menu-submenu-open:hover {
+    border-width: 0px !important;
+}
+.ant-menu-submenu-active:hover {
+    border-width: 0px !important;
+}
+.ant-menu-submenu-horizontal:hover {
+    border-width: 0px !important;
+}
+.ant-menu-submenu-open:hover {
+    border-width: 0px !important;
+}
+.ant-menu-overflow-item {
+    border-width: 0px !important;
+}
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item::after{
+    border-bottom: none;
+}
+.header-eng {
+    animation: english 1s ease 0s 1 normal forwards;
+
+    transition: all 0.5s ease-in-out; 
+  }
+  
+  .header-arbi {
+    animation: arabic 1s ease 0s 1 normal forwards;
+
+    transition: all 0.5s ease-in-out; 
+  }
+  .ant-layout{
+    background-color: transparent;
+  }

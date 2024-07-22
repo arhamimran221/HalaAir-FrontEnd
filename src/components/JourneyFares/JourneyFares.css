@@ -1,0 +1,74 @@
+.journey-card {
+  background-repeat: no-repeat;
+  padding: 20px;
+  width: 30%;
+  background-size: contain;
+}
+.journey-heading {
+  padding-top: 103%;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.journey-cards-main {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 160px;
+}
+.journey-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.journey-sub p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.journey-sub p span {
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.book-button button {
+  background: rgba(245, 146, 35, 1);
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.book-button button:hover {
+  border: 1px solid #fff;
+ background-color: black;
+  color: #fff;
+  transition: 0.2s ease;
+}
+
+@media screen and (max-width:580px) {
+    .journey-cards-main{
+        flex-direction: column;
+    }
+    .journey-card{
+        width: 100%;
+        margin: 0px auto;
+        background-size:cover;
+    }
+    .journey-heading{
+        padding-top: 110%;
+    }
+}

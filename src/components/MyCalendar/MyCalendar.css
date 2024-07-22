@@ -1,0 +1,44 @@
+
+.calendartag{
+    display: flex;
+    align-items: center;
+    width: 220px;
+    /* border: 1px solid #877F57; */
+    color: #877F57;
+    font-size: 14px;
+    cursor: pointer;
+}
+.selectedCalendar{
+  width: 350px;
+}
+/* .selectedDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+} */
+.calendartag img{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+
+}
+
+.react-calendar {
+    border: 1px solid #343434;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .react-calendar {
+    border: 1px solid #2865A4;
+    /* margin-top: 20px; */
+    border-radius: 20px;
+    padding: 6px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 330px;
+    position: absolute;
+    /* margin-bottom: 8%; */
+  }
+  .react-calendar__navigation {
+    display: flex
+  }

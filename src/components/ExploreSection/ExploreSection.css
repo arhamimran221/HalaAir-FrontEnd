@@ -1,0 +1,81 @@
+.mainExCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 80px 0px;
+}
+.CardExplore{
+    /* background-image: url('../../assets/svg/explore3.svg'); */
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    padding: 15px 18px 20px;
+    border-radius: 6px;
+    height: 310px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+.CardExplore:before {
+    content: ""; 
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    width: 100%;
+    border-radius: 6px;
+    opacity: 0.5;
+}
+.CardExplore:hover{
+    transition: all 0.5s ease-in-out;
+    opacity: rgb(90, 90, 90,1);
+    cursor:pointer;
+}
+.titleEx {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.desbtn{
+    color: #fff;
+    gap: 15px;
+}
+.desbtn p{
+    font-size: 12px;
+}
+.desbtn a{
+    border: 1px solid #fff;
+    border-radius: 16px;
+    /* padding: 6px 10px; */
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+    height: 40px;
+    min-width: 82.15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desbtn a:hover{
+    background-color: #000;
+    transition: all 0.5s;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    width: 100%;
+  }

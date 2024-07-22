@@ -1,0 +1,91 @@
+.ha-inner-banner-destination {
+  width: 100%;
+  background-image: linear-gradient(
+      270deg,
+      #fc9744 0%,
+      rgba(255, 156, 75, 0.47) 50.66%
+    ),
+    url(../../assets/svg/about-eng-banner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  rotate: 360deg;
+}
+.ha-inner-banner-destination-arabic {
+  width: 100%;
+  background-image: linear-gradient(
+      270deg,
+      #fc9744 0%,
+      rgba(255, 156, 75, 0.47) 50.66%
+    ),
+    url(../../assets/svg/about-ara-banner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.title-destination {
+  font-size: 29px;
+  font-weight: 800;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.destination-des{
+font-size: 11px;
+font-weight: 800;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.destination-button a{
+        border: 1px solid #fff;
+        border-radius: 16px;
+        /* padding: 6px 10px; */
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 20px;
+        cursor: pointer;
+        height: 40px;
+        min-width: 82.15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+}
+.destination-button a:hover{
+    background-color: #000;
+    transition: all 0.5s;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.destination-des-ar{
+    font-size: 11px;
+font-weight: 800;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: right;
+
+}
+.title-destination-ar{
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+@media screen and (max-width:580px) {
+    .destinations-cards-main{
+        flex-direction: column;
+    }
+    .destination-card{
+        width: 90% !important;
+    }
+    .title-destination{
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+}

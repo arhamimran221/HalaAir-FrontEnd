@@ -1,0 +1,133 @@
+.category-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #df6951;
+}
+.offer-heading {
+  font-family: "Volkhov";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #181e4b;
+  margin-top: 10px;
+}
+.service-cards {
+  margin-top: 40px !important;
+  margin-bottom: 80px !important;
+  width: 85%;
+  display: flex;
+  margin: 0px auto;
+  gap: 40px;
+}
+.service-card {
+  width: 100%;
+  text-align: center;
+  /* padding: 20px; */
+  background-color: white;
+  margin: 30px;
+
+}
+.servicecard-main{
+    height: 346px;
+    text-align: center;
+   
+}
+.servicecard-main:hover{
+    transition: 0.3 ease !important;
+    background-image: url(../../assets/svg/background-card.svg);  
+    background-position: 2px 222px;
+    background-repeat: no-repeat;
+}
+.service-img {
+  width: 100%;
+  height: 78px;
+  /* background-image: url(../../assets//svg/background-service.svg);
+  background-repeat: no-repeat;
+  background-position: 98px 34px; */
+}
+.service-img img {
+  margin: 0px auto;
+}
+.service-img-medical {
+  width: 100%;
+  height: 78px;
+  background: url(../../assets/svg/medical-stars.svg) no-repeat;
+  background-position: 105px -19px, center center; /* Adjust the positions as needed */
+}
+
+.service-img-medical img {
+    margin: 0px auto;
+  }
+.service-heading {
+  /* font-family: "poppins"; */
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1e1d4c;
+  margin-top: 20px;
+}
+.sevice-description {
+  /* font-family: "poppins"; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5e6282;
+  margin-top: 10px;
+  padding: 0px 18px;
+}
+.service-card {
+    cursor: pointer;
+    padding: 20px 2px;
+    border-radius: 14px;
+    transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+    position: relative; /* Ensure the parent has a positioning context */
+    overflow: visible !important; /* Allow content to overflow */
+  }
+  
+  .service-card:hover {
+    box-shadow: 
+      0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.0048),
+      0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.0079),
+      0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+      0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.0121),
+      0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.0152),
+      0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+   
+  }
+
+  .service-card > div:not(.service-card) {
+    box-shadow: none; /* This will remove the box shadow from inner divs */
+  }
+  
+  
+@media screen and (max-width:580px) {
+  .service-cards{
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 50px !important;
+  }
+  .category-heading{
+    font-size: 14px;
+  }
+  .offer-heading{
+    font-size: 25px;
+  }
+  .service-card{
+    margin: 0px;
+  }
+  .servicecard-main {
+    height: 100%;
+  }
+  .servicecard-main:hover{
+    background-position: 0px 123px;
+  }
+}

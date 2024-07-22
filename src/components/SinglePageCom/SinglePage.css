@@ -1,0 +1,25 @@
+.ha-single-banner-wrap {
+    width: 100%;
+    background-image: url(../../assets/svg/bennr1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    position: relative;
+}
+.ha-single-banner-wrap-english {
+    width: 100%;
+    background-image: url(../../assets/img/engsinglebanner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    position: relative;
+}
+/* .ha-single-banner-wrap::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    content: linear-gradient(90deg, rgba(245,147,35,0.3968181022408963) 0%, rgba(245,146,35,0.8618040966386554) 100%);
+} */

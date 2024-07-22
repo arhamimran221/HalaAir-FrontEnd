@@ -1,0 +1,247 @@
+@keyframes arabic {
+	0% {
+		transform: scaleX(0);
+		transform-origin: 100% 100%;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: 100% 100%;
+	}
+}@keyframes english {
+	0% {
+		transform: scaleX(0);
+		transform-origin: 0% 0%;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: 0% 0%;
+	}
+}
+
+.mainfooterCard{
+    display: flex;
+    width: 100%;
+    animation: english 1s ease 0s 1 normal forwards;
+    padding: 60px 0px;
+}
+.mainfooterCardArabic{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    animation: arabic 1s ease 0s 1 normal forwards;
+    padding: 60px 0px;
+}
+.socialCard{
+    width: 36%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.arabicsocialCard{
+    width: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.iconCard:hover{
+ border: 1px solid #F59223;
+ cursor: pointer;
+ padding: 4px;
+ transition: all 0.3s;
+ border-radius: 4px;
+}
+.contactCard{
+    width: 34%;
+}
+.contactCard h3{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Tajawal', sans-serif;
+    color: #F59223;
+padding-bottom: 16px ;
+}
+.contactinfo{
+display: flex;
+justify-content: space-between;
+padding-bottom: 10px ;
+line-height: 28px;
+}
+.contactinfo h5{
+    color:#444544;
+    width: 148px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.contactinfo p{
+    font-weight: 700;
+    font-size: 14px;
+    width: 140px;
+
+}
+.arabiccontactinfo{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px ;
+    line-height: 28px;
+    flex-direction: row-reverse;
+    }
+    .arabiccontactinfo h5{
+        color:#444544;
+        width: 148px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .arabiccontactinfo h4{
+        color:#444544;
+        width: 130px;
+        font-weight: 300;
+        font-size: 16px;
+        direction: rtl;
+
+    }
+    .arabiccontactinfo p{
+        font-weight: 700;
+        font-size: 18px;
+        width: 140px;
+        direction: rtl;
+    }
+
+
+.arabiccontactCard{
+    padding-left: 30px;
+    width: 34%;
+}
+.arabiccontactCard h3{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Tajawal', sans-serif;
+    color: #F59223;
+padding-bottom: 16px ;
+display: flex;
+    flex-direction: row-reverse;
+}
+.newsCard{
+    width: 30%;
+    padding-left: 20px;
+}
+.newsCard h3{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Tajawal', sans-serif;
+    color: #F59223;
+padding-bottom: 16px ;
+}
+.newsCard h5{
+    color:#444544;
+    width: 148px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.arabicnewsCard{
+    width: 36%;
+}
+.arabicnewsCard h3{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Tajawal', sans-serif;
+    color: #F59223;
+padding-bottom: 16px ;
+display: flex;
+    flex-direction: row-reverse;
+}
+.arabicnewsCard h5{
+    color:#444544;
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.inputCard{
+    margin-top: 26px;
+    position: relative;
+    border: 1px solid #F59223;
+    padding: 20px;
+    border-radius: 50px;
+}
+.arrowCard{
+    position: absolute;
+    background-color: #F59223;
+    padding: 14px;
+    border-radius: 100px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.arrowCard:hover{
+border: 1px solid #F59223;
+transition: all 0.5s;
+background-color: transparent;
+}
+.arabicarrowCard{
+    position: absolute;
+    background-color: #F59223;
+    padding: 14px;
+    border-radius: 100px;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.arabicarrowCard:hover{
+border: 1px solid #F59223;
+transition: all 0.5s;
+background-color: transparent;
+}
+.subscribeCard{
+outline-style: none;
+}
+.arabicsubscribeCard{
+    outline-style: none;
+    width: 100%;
+    }
+
+@media screen and (max-width:580px) {
+    .mainfooterCard{
+        flex-direction: column-reverse;
+        padding: 0px 6px;
+    }
+    .mainfooterCardArabic{
+        flex-direction: column-reverse;
+        padding: 0px 6px;
+    }
+    .newsCard{
+        padding-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .arabicnewsCard{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contactCard{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .arabiccontactCard{
+        padding-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .socialCard{
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+        margin-top: 20px;
+
+    }
+    .arabicsocialCard{
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+        margin-top: 20px;
+    }
+}

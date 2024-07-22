@@ -1,0 +1,33 @@
+.ha-inner-banner-wrap {
+    width: 100%;
+    background-image: url(../../assets/img/innerbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.ha-inner-banner-wrap-arabic{
+    width: 100%;
+    background-image: url(../../assets/img/home\ page\ pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.get-in-touch-wrap h2 {
+    color: var(--dark);
+}
+.get-in-touch-wrap h2 span {
+    color: var(--primary);
+}
+.git-btn {
+   font-family: 'Poppins', sans-serif;
+   background-color: var(--primary);
+}
+.git-btn:hover {
+    background-color: var(--dark);
+    transition: all 0.8s;
+}
+.get-in-touch-wrap a:hover {
+    color: var(--primary);
+}
